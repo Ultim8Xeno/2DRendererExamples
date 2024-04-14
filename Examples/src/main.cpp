@@ -44,6 +44,16 @@ int main()
 		Renderer::EndFrame();
 	}
 
+	for (int i = 0; i < 4000; i++)
+	{
+		delete[] positions[i];
+		delete[] dimensions[i];
+		delete[] colors[i];
+	}
+	delete[] positions;
+	delete[] dimensions;
+	delete[] colors;
+
 	Renderer::CleanUp();
 
 	return 0;

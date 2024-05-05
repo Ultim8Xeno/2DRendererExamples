@@ -1,0 +1,3 @@
+[submodule "2DRenderer"]
+	path = 2DRenderer
+	url = https://github.com/Ultim8Xeno/2DRenderer

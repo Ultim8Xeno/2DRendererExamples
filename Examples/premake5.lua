@@ -21,7 +21,7 @@ project "Examples"
 
 	links
 	{
-		"OpenGLRenderer"
+		"2DRenderer"
 	}
 
 	filter "configurations:Debug"

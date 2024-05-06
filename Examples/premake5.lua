@@ -15,7 +15,7 @@ project "Examples"
 
 	includedirs
 	{
-		"%{wks.location}/OpenGLRenderer/src",
+		"%{wks.location}/2DRenderer/src",
 		"src"
 	}
 
